@@ -14,6 +14,7 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     string X="abcdgh",Y="abedfhr";
+    // Longest common subsequence = "abdh"
     int n=X.length(),m=Y.length();
     cout<<LCS(X,Y,n,m)<<endl;
     return 0;
